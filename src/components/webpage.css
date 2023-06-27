@@ -1,0 +1,132 @@
+.custom-navbar {
+    width: 150px; /* Adjust the font size as per your requirements */
+    background-color: white !important;
+  }
+  .nav-icon {
+    margin-right: 8px; /* Add margin to create space between the icon and text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    /* Additional styling as per your requirements */
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .arrow-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-wrapper {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: red; /* Set the background color to red */
+  border-radius: 50%; /* Make it circular */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+
+  }
+  
+  .arrow-icon {
+    position: absolute;
+    /* width: 50px; */
+    color: red;
+    font-size: 40px;
+    background-color: #fff;
+    padding: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  .icon {
+    color: red;
+  }
+
+  .icon:checked {
+    border-color: red;
+    background-color: red;
+  }
+  
+  .custom-button {
+    width: 100%;
+    border: 1px solid red;
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .custom-button {
+    width: 100%;
+    border: 1px solid red;
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .custom-button.active {
+    background-color: red;
+    color: white;
+  }
+  .date-col {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-text {
+    margin-right: 5px;
+  }
+  .icon-with-pencil{
+    width: 200px;
+  }
+  
+  
+  
+
+ /* CSS for Expander */
+.button-expander {
+  width: 1000px;
+  color: red;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* margin-bottom: 5px; */
+  margin-top: 5px;
+
+}
+
+.button-expander:hover {
+  background-color: #e6e6e6;
+}
+
+.button-expander .arrow {
+  margin-left: auto;
+}
+
+/* CSS for Additional Information */
+.additional-info {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 95%;
+}
+
+
+  
+  
+  
+  
+      
+  
+  
+    
+  
